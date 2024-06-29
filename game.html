@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>game</title>
+
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <!-- <link href="styles_funfact.css" rel="stylesheet"> -->
+        <script src="game.js"></script>
+    </head>
+    <body>
+
+        <h1 class="headerColor">Welcome to My Homepage!</h1>
+
+
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="https://fictional-capybara-5g4gx7g5q49wf7vw5-8080.app.github.dev/index.html#">Home</a></li>
+                <li class="breadcrumb-item"><a href="https://fictional-capybara-5g4gx7g5q49wf7vw5-8080.app.github.dev/biography.html">Biography</a></li>
+                <li class="breadcrumb-item"><a href="https://fictional-capybara-5g4gx7g5q49wf7vw5-8080.app.github.dev/myjob.html">My Job</a></li>
+                <li class="breadcrumb-item"><a href="https://fictional-capybara-5g4gx7g5q49wf7vw5-8080.app.github.dev/myfamily.html">My Family</a></li>
+                <li class="breadcrumb-item"><a href="#">Game</a></li>
+            </ol>
+        </nav>
+
+
+        <div class="biographyHeader">
+            <h1>Rock Paper Scissor</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <hr>
+                <h3>What do you think of this website?</h3>
+                <button id="choice1">interesting</button>
+                <button id="choice2">good</button>
+                <button id="choice3">so-so</button>
+                <button id="choice4">bad</button>
+                 <p id="answer"></p>
+
+            </div>
+            <div class="section">
+                <h2>Please Play: Rock Paper Scissor </h2>
+                <hr>
+                <h3 id="winner" style="text-align: center;">Who's going to win?</h3>
+                <h6 id="result" style="text-align: center;">-</h6>
+                <div class="center">
+                    <div style="margin-right: 10%;">
+                        <h6>Your Choice? </h6>
+                        <table style="background-color: aquamarine;">
+                            <tr>
+                                <td><button id="rock">Rock</button></td>
+                            </tr>
+                            <tr>
+                                <td><button id="paper">Paper</button></td>
+                            </tr>
+                            <tr>
+                                <td><button id="scissor">Scissor</button></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div style="margin-right: 10%;">
+                        <h6>I Pick: </h6>
+                        <table style="background-color: rgb(245, 238, 148);">
+                            <tr>
+                                <td id="pcdisplay"><button id="pc"></button>-</td>
+                            </tr>
+
+                        </table>
+                    </div>
+
+                    <table class="scoretable">
+                        <tr>
+                            <th>Player</th>
+                            <th>Computer</th>
+                        </tr>
+                        <tr>
+                            <td>&#160 Scores &#160 </td>
+                            <td>Scores</td>
+                        </tr>
+                        <tr>
+                            <td id="score1">0</td>
+                            <td id="score2">0</td>
+
+                    </table>
+                </div>
+
+            </div>
+            <div class="section">
+                <hr>
+                <h3>What do you think of this website NOW?</h3>
+                <button id="choice11">interesting</button>
+                <button id="choice22">good</button>
+                <button id="choice33">so-so</button>
+                <button id="choice44">bad</button>
+                 <p id="answer2"></p>
+
+            </div>
+        </div>
+    </body>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Kegang Peng. All rights reserved.</p>
+        </div>
+    </footer>
+
+</html>
