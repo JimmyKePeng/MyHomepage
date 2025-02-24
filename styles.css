@@ -53,7 +53,7 @@ button, input[type="submit"] {
     line-height: 1.5;
     padding: 0.375rem 0.75rem;
     text-align: center;
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    /* transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; */
     vertical-align: middle;
 }
 
@@ -63,10 +63,10 @@ input[type="text"] {
     width: 25%;
 }
 
-input[type="text"]:hover {
+/* input[type="text"]:hover {
     background-color: #f5f5f5;
     transition: color 2s ease-in-out, background-color 0.15s ease-in-out;
-}
+} */
 
 p
 {
@@ -172,9 +172,9 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+/* a:hover {
     text-decoration: underline;
-}
+} */
 .center{
     display: flex;
     justify-content: center;
@@ -200,3 +200,75 @@ a:hover {
     background-color: rgb(245, 238, 148);
 }
 
+
+
+.center-div {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height if needed */
+    flex-direction: column; /* Optional: stack children vertically */
+
+}
+
+
+
+
+#level-title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    margin:  5%;
+    color: #28c926;
+  }
+  
+
+  
+  .btn {
+    margin: 25px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+  }
+  
+  .game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+  
+
+
+
+  .element {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+  
+  /* Prevents disappearing on hover */
+  .element:hover {
+    opacity: 1;
+    visibility: visible;
+  }
