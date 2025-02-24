@@ -1,33 +1,33 @@
 // TODO: Add code to check answers to questions
 document.addEventListener('DOMContentLoaded', function(){
 
-    let correctAnswer = document.querySelector('#choice3');
-    correctAnswer.addEventListener('click', function(){
-        correctAnswer.style.backgroundColor = 'green';
-        document.querySelector('#answer').innerHTML='Correct!';
-    });
+    // let correctAnswer = document.querySelector('#choice3');
+    // correctAnswer.addEventListener('click', function(){
+    //     correctAnswer.style.backgroundColor = 'green';
+    //     document.querySelector('#answer').innerHTML='Correct!';
+    // });
 
-    let wrongAnswer = document.querySelectorAll('#choice2, #choice1, #choice4');
-    wrongAnswer.forEach(function(button){
-        button.addEventListener('click', function(){
-            button.style.backgroundColor = 'red';
-            document.querySelector('#answer').innerHTML = 'Incorrect';
-        });
-    });
+    // let wrongAnswer = document.querySelectorAll('#choice2, #choice1, #choice4');
+    // wrongAnswer.forEach(function(button){
+    //     button.addEventListener('click', function(){
+    //         button.style.backgroundColor = 'red';
+    //         document.querySelector('#answer').innerHTML = 'Incorrect';
+    //     });
+    // });
 
-    let correctAnswer2 = document.querySelector('#choice11');
-    correctAnswer2.addEventListener('click', function(){
-        correctAnswer2.style.backgroundColor = 'green';
-        document.querySelector('#answer2').innerHTML='Correct!';
-    });
+    // let correctAnswer2 = document.querySelector('#choice11');
+    // correctAnswer2.addEventListener('click', function(){
+    //     correctAnswer2.style.backgroundColor = 'green';
+    //     document.querySelector('#answer2').innerHTML='Correct!';
+    // });
 
-    let wrongAnswer2 = document.querySelectorAll('#choice22, #choice33, #choice44');
-    wrongAnswer2.forEach(function(button){
-        button.addEventListener('click', function(){
-            button.style.backgroundColor = 'red';
-            document.querySelector('#answer2').innerHTML = 'Incorrect';
-        });
-    });
+    // let wrongAnswer2 = document.querySelectorAll('#choice22, #choice33, #choice44');
+    // wrongAnswer2.forEach(function(button){
+    //     button.addEventListener('click', function(){
+    //         button.style.backgroundColor = 'red';
+    //         document.querySelector('#answer2').innerHTML = 'Incorrect';
+    //     });
+    // });
 
     // table score
     let player = 0;
